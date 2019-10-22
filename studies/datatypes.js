@@ -1,4 +1,4 @@
-/**
+/** 
  * DATA TYPES:
  * 
  * 0. We call a type of value a data-type. There are simple data types like numbers, strings, booleans, NaN, undefined, and null.

@@ -1,4 +1,4 @@
-/** 
+/**  
  * 0. CONDITIONAL STATEMENTS
  * 
  * If, else, else if  and switch statements are used to perform actions based on different conditions

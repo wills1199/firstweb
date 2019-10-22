@@ -1,4 +1,4 @@
-/**
+/** 
  * 0. JavaScript operators are used to assign values, compare values, and perform arithmetic operations, as well as many otehr useful things.
  */
 

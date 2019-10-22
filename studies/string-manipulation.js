@@ -1,4 +1,4 @@
-/**
+/** 
 * 0. JAVASCRIPT STRINGS
 *
 *   Javascript strings store a series of characters inside double or single quotes like "Hello World"
