@@ -69,7 +69,7 @@ console.log(b); // 6
 
 const myAge = 23; // This defines myAge as a constant and gives it the value of 23
 
-myAge = 24; // This will give an error because you can't assign a new variable to a constant
+// myAge = 24; // This will give an error because you can't assign a new variable to a constant
 
 /*
  * HOISTING:

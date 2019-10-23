@@ -15,7 +15,8 @@
  * %= Remainder assignment
  */
 
-// Given that x = 10 and y = 6
+// Given that
+x = 10, y = 6
 
 x = y // results in x = 5
 x += y // results in x = 15
@@ -91,11 +92,14 @@ x <= 8 // true
  * ! not
  */
 
-// Given that x = 6 and y = 3
+/* Given that 
+ x = 6, y = 3
 
-(x < 10 && y > 1) // true
-(x === 5 || y === 5) // false
-!(x === y) // true
+ (x < 10 && y > 1); // true
+ (x === 5 || y === 5); // false
+ !(x === y); // true
+*/
+
 
 /* 5. UNARY OPERATORS
  * 
@@ -123,7 +127,7 @@ x <= 8 // true
 
 // Logical Not(!)
 !false // returns true
-!true / /returns false
+!true // returns false
 
 // Increment (++)
 x = 4 // x=4
@@ -166,5 +170,7 @@ typeof function(val){ return val} //returns 'function'
 *    The ternary operator assigns a value to a variable based on a condition
 */
 
+var age = 15
+
 voteable = (age < 18) ? "Too young":"Old enough";
-// If the variable "age" is below 18 the value of the variable "voteable" will be "Too young", otherwie the value will be "Old enough"
+// The value of the variable "voteable" will be "Too young".

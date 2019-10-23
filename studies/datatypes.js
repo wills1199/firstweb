@@ -23,7 +23,7 @@
   var b = a; // the value stored in a is copied into b
   
   b = 2; // changing the value at b doesn't effect what is stored in a
-  console.log(a) prints to the console 1
+  // console.log(a) prints to the console 1
   
  /* 
  * 3. Complex data type aggregate other values and are of indefinite size.
@@ -33,19 +33,19 @@
  * Function, value => function => action
  */
 
- /* 
-  * 4. When assigning or passing, complex data=types are passed by reference.
- */
- * var a = {one: "ham"};
- * 
- * var b = a;
- * // The value stored in b is a reference to the value stored in a and they now both point to the same object
- * 
- * b.one = "turkey";
- * console.log(a.one) // will print to the console "turkey"
- * // Changing the value at b effects all references because the value is referenced to the same object
- *
- *
+  
+// 4. When assigning or passing, complex data-types are passed by reference.
+ 
+  var a = {one: "ham"};
+  
+  var b = a;
+  // The value stored in b is a reference to the value stored in a and they now both point to the same object
+  
+  b.one = "turkey";
+  console.log(a.one) // will print to the console "turkey"
+  // Changing the value at b effects all references because the value is referenced to the same object
+ 
+
  /* 5. Infinity and -Infinity
  *    Infinity is a numeric value that represents positive infinity.
  *    -Infinity is a numeric value that represents negative infinity

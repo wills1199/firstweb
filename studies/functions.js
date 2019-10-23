@@ -52,6 +52,10 @@ function myFunction() {
  * Functions can be used as variables
  */
 
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
 var x = toCelsius(77);
 var text = "The temperature is " + x + " Celsius";
 //instead of using a variable to store the reurn value of a function...

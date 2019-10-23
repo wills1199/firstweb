@@ -101,8 +101,8 @@ Imagine that our website has a profile page for each animal. On this profile pag
  5. [x] Write a function called `getRandom` that takes our `animals` array and returns the `index` of a random element using `Math.random`
  6. [x] Using a random index from this function that you just created, get a random animal and add its `name` to `friends`.
  7. [x] `console.log` `friends`.
- 8. [ ] add `friends` as a **property** named `friends` on one of the animals in `animals`
- 9. [ ] `console.log` your work.
+ 8. [x] add `friends` as a **property** named `friends` on one of the animals in `animals`
+ 9. [x] `console.log` your work.
  
 ## Step 8 - Take Another Break!!
 

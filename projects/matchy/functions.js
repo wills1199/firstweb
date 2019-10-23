@@ -13,23 +13,65 @@
 // Step 1 - Search ///////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 
-
+function search(animals, name){
+    for (let i = 0; i < animals.length; i++){
+        if (animals[i].name === name){
+            return animals[i]
+        }
+    }return null;
+}
 
 //////////////////////////////////////////////////////////////////////
 // Step 2 - Replace //////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 
+function replace(animals, name, replacement){
+    for (let i = 0; i < animals.length; i++){
+        if (animals[i].name === name){
+           return animals.splice(animals[i], 1, replacement);
+        }
+    }
+}
 
 
 //////////////////////////////////////////////////////////////////////
 // Step 3 - Remove ///////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 
+function remove(animals, name){
+      for (let i = 0; i < animals.length; i++){
+        if (animals[i].name === name){
+           return animals.splice(animals[i], 1);
+        }
+    }
+}
+
 
 
 //////////////////////////////////////////////////////////////////////
 // Step 4 - Create ///////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
+
+/*- Checks that the animal Object has a `name` property with a length > 0.
+ *- Checks that the animal Object has a `species` property with a length > 0.
+ *- Has a **unique** name, meaning no other animals have that name.
+ *- Adds this new Object to the `animals` Array, **only** if all the other conditions pass.
+*/
+
+function add(animals, animal){
+    for (var i = 0; i < animals.length; i++){
+        if ((animal.name.length > 0) && (animal.species.length > 0) && (animal.name !== animals[i].name)){
+            return animals.push(animal);
+        } else {
+            return animals
+        }
+    }
+}
+
+        
+
+
+
 
 
 

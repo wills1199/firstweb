@@ -3,15 +3,16 @@
  * 
  * Loops execute a block of code a humber of times by running though the same code over and over again, each time with a different value
  * 
- * for - loops through a block of code a number of times
- * for/in - loops through the properties of an object
- * while - loops through a block of code while a specified condition is true
+ * for - loops through a block of code a number of times.
+ * for/in - loops through the properties of an object.
+ * while - loops through a block of code while a specified condition is true.
  */
 
-//1. FOR LOOP
+/*1. FOR LOOP EXAMPLE
 for (statement1, statement2; statement3){
     // code block to be executed
 }
+*/
 
 //Looping forward example
 for (i = 0; i < 10; i++){
@@ -27,14 +28,14 @@ for (i = 10; i > 0; i--){
 var array = ["Hello", "my", "name", "is", "William"];
 
 for (var i = 0; i < array.length; i++){
-    console.log(array[i])
+    console.log(array[i]) // Will print to the console "Hello", "my", "name", "is", "William"
 }
 
 //Looping over an array backward
 var array = ["Hello", "my", "name", "is", "William"];
 
 for (var i = array.length - 1; i >= 0; i--){
-    console.log(array[i])
+    console.log(array[i]) // Will print to the console "William", "is", "name", "my", "Hello"
 }
 
 
@@ -51,10 +52,11 @@ for (var key in object1){
 }
 // Will print out a, 1, b, 2, c, 3
 
-//3. WHILE LOOPS
+/*3. WHILE LOOPS
 while (condition) {
     // code block to be executed
 }
+*/
 
 //Example
 var i = 0;

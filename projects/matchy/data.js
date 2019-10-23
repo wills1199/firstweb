@@ -103,16 +103,17 @@ console.log(animals.length);
 var friends = []; // Arrays are good for storing lists
 
 function getRandom(animalsArray){
-  min = Math.ceil(0);
-  max = Math.floor(animalsArray.length - 1);
-  return Math.floor(Math.random() * (max - min)) + min;
+  return Math.floor(Math.random() * Math.floor(animals.length));
 }
 
+var randomIndex = getRandom(animals);
 
-friends[0] = (animals[getRandom(animals)].name);
+friends.push(animals[randomIndex].name);
 
+console.log(friends);
 
-animals[1].friends;
+duck.friends = friends;
+
 
 /**
  * Nice work! You're done Part 1. Pat yourself on the back and
