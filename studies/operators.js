@@ -1,5 +1,8 @@
 /** 
- * 0. JavaScript operators are used to assign values, compare values, and perform arithmetic operations, as well as many otehr useful things.
+ * 0. JavaScript operators are used to assign values, compare values, and perform arithmetic operations, as well as many other useful things.
+ *   
+ *    An operator performs some operation on single or multiple operands and produces a result.
+ * 
  */
 
 /*
@@ -16,14 +19,14 @@
  */
 
 // Given that
-x = 10, y = 6
+var x = 10, y = 5
 
-x = y // results in x = 5
-x += y // results in x = 15
-x -= y // results in x = 5
-x *= y // results in x = 50
-// x /= y results in x = 2
-x %= y // results in x = 0
+x = y // results in x = 5, assigns the right operand to the left operand
+x += y // results in x = 15, sums up the left and right operand values and assigns the result to the left operand
+x -= y // results in x = 5, subtracts the right operand value from the left operand value and assigns the result to the left operand
+x *= y // results in x = 50, multiplies the left and right operand values and assigns the result to the left operand
+x /= y // results in x = 2, divides the left operand value by the right operand value and assigns the result to the left operand
+x %= y // results in x = 0, gets the modulus of the left operand divide by right operand and assigns the resulted modulus to the left operand
 
 
 /* 2. ARITHMETIC OPERATORS
@@ -92,13 +95,13 @@ x <= 8 // true
  * ! not
  */
 
-/* Given that 
- x = 6, y = 3
+// Given that 
+ var x = 6;
+ var y = 3;
 
- (x < 10 && y > 1); // true
- (x === 5 || y === 5); // false
- !(x === y); // true
-*/
+ (x < 10 && y > 1); // result: true = if x is less than 10 or y is greater than 1 this will return true
+ (x === 5 || y === 5); // result: false - if x or y is equal to five, this will return true
+ !(x === y); // result: true - if x is not equal to y, this will return true
 
 
 /* 5. UNARY OPERATORS
@@ -165,12 +168,14 @@ typeof function(val){ return val} //returns 'function'
 
 /* 6. TERNARY OPERATOR
 * 
-*    variablename = (condition) ? value1:value2
+*    variablename = (condition) ? value1 : value2
+*    If the condition is true value1 will run, the the condition is false value2 will run
 *
 *    The ternary operator assigns a value to a variable based on a condition
 */
 
 var age = 15
 
-voteable = (age < 18) ? "Too young":"Old enough";
-// The value of the variable "voteable" will be "Too young".
+var voteable = (age < 18) ? "Too young":"Old enough";
+
+// The value of the variable "voteable" will be "Too young" because the condition is true.

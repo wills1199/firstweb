@@ -43,7 +43,7 @@ myVariable = "someString";
  */
 
 /*
- * When let is used inside of a code block it is limits the scope of the variable to that block.
+ * When let is used inside of a code block it limits the scope of the variable to that block.
  */
 
 var a = 5;
@@ -54,7 +54,7 @@ if (a === 5) {
     let b = 66; // the scope is inside the if-block
     
     console.log(a); // 55
-    console.log(b); // 22
+    console.log(b); // 66
 }
 
 console.log(a); // 55
