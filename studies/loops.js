@@ -14,12 +14,24 @@
 for (statement1, statement2; statement3){
     // code block to be executed
 }
+
+* Statement 1 is the starting condition and is executed one time before the code block is executed.
+* Statement 2 is the stopping condition and defines when the code block will stop being executed.
+* Statement 3 is the incrementor and is executed every time after the code block has been executed.
 */
 
 //Looping forward example
 for (i = 0; i < 10; i++){
     console.log(i) // prints to the console numbers 0-9
 }
+/* In the above example the first statement sets a variable before the loop starts.
+*  The loop will start at 0
+*
+*  The second statement defines the condition for the loop to run.
+*  The loop will only run if i is less than 10.
+*
+*  The third statement increases the value by one each time the code block in the loop has been executed.
+*/
 
 //Looping backward example
 for (i = 10; i > 0; i--){
@@ -67,12 +79,10 @@ while (condition) {
 */
 
 //Example
-var i = 0;
+var i = 0; // This is the starting condition. Because i is equal to 0, 0 is our starting point.
 
-while (i < 10){ // Because i is equal to 0, 0 is our starting point. Because we made the stopping point to be less than 10, the loop will stop at 9 because it is the highest number lower than 10.
+while (i < 10){ // This is our stopping point. Because we made the stopping point to be less than 10, the loop will stop once i becomes equal to 10.
     console.log(i);
-    i++;
+    i++; // This is our iterator. The starting condition will increase by one as long as i is less than 10.
 }
-// The while loop iterates as long as i is less than 10
-
 // Will print to the console the numbers 0-9
